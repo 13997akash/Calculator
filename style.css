@@ -1,0 +1,35 @@
+.calculator{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    
+}
+
+
+#screen{
+    width: 246px;
+    font-size: 34px;
+    border: 2px solid coral;
+    border-radius: 4px;
+    /* background-color: aqua; */
+    padding: 5px, 0;
+}
+button {
+    font-size: 26px;
+    /* padding: 23px; */
+    width: 60px;
+    height: 41px;
+    border: none;
+    border-radius: 10px;
+    background: coral;
+}
+.calculator div{
+    background-color: lightgreen;
+    /* margin: 5px; */
+    padding: 30px 15px;
+    border-radius: 8px;
+}
+
